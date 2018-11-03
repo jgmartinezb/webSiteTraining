@@ -1,56 +1,65 @@
-/*body {
-	color: #ffffff;
-	background: #413f3b url("../images/stave.jpeg") no-repeat center center fixed;
-	background-size: cover;
-	font-family: Georgia, "Times New Roman", Times, serif;
-	font-size: 90%;
-	margin: 0px;
-	text-align: center;}*/
-	
 @font-face {
 	font-family: 'Amiko';
 	font-weight: normal;
 	font-style: normal;
 	src: url("../fonts/amiko/Amiko-Regular.ttf") format('truetype');}
 
+	
 body {
 	color: #E5A508;
 	background: #413f3b;
 	font-family: 'Amiko';	
-	width: 90%;
 	margin: 0 auto;}
 
-p {
-	text-align: justify;
-    text-justify: inter-word;}
-	
-#content {
-	overflow: auto;}
 
-#nav, #footer {
-	margin: 1%;}
-
-.column1 h4, .column2 h4, .column3 h4 {
-	text-align: center;}
-
-.column1, .column2, .column3 {
-	width: 31.3%;
-	float: left;
-	margin: 1%;}
+footer {
+   position:relative;
+   bottom:0;
+   width:100%;
+   font-size: 13px;
+   padding: 5px;
+   color: #000000;
+   background:#c2c2d6;}
+   
+/*
+a.ico:before {
+	content:"";
+	display:block;
+	display:block;
+	height: 100px;
+	width: 200px;
+	padding-left: 30px;
+    background: url("../images/email.png") no-repeat;
+    background-repeat: no-repeat;	
+}*/
 	
 li {
 	display: inline;
 	padding: 0.5em;}
 
+	
 li a:hover {
     background-color: #555;
     color: white;
-	
-#nav, #footer {
-	background-color: #efefef;
-	padding: 0.5em 0;}
+   
+   
+#content {
+	overflow: auto;}
 
-#feature, .article {
-	height: 10em;
-	margin-bottom: 1em;
-	background-color: #efefef;}
+	
+.columns p {
+	text-align: justify;
+    text-justify: inter-word;
+	width: 31.3%;
+	float: left;
+	margin: 1%;}
+	
+.columns h4 {
+	text-align: center;}
+
+.address > * {
+    vertical-align :middle;}
+	
+.address.img {
+	width = 30px;
+	height = 30px;}
