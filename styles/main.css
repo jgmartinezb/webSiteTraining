@@ -1,65 +1,90 @@
 @font-face {
 	font-family: 'Amiko';
-	font-weight: normal;
-	font-style: normal;
 	src: url("../fonts/amiko/Amiko-Regular.ttf") format('truetype');}
-
+	
+header {
+	display: inline-block;
+	vertical-align: middle;}
 	
 body {
-	color: #E5A508;
-	background: #413f3b;
-	font-family: 'Amiko';	
-	margin: 0 auto;}
+	font-size: 18px;
+	font-weight: normal;
+	min-height: 100%;
+	margin: 0px;
+	padding: 0px;
+	color: #665544;
+	background-color: white;}
 
-
-footer {
-   position:relative;
-   bottom:0;
-   width:100%;
-   font-size: 13px;
-   padding: 5px;
-   color: #000000;
-   background:#c2c2d6;}
-   
-/*
-a.ico:before {
-	content:"";
-	display:block;
-	display:block;
-	height: 100px;
-	width: 200px;
-	padding-left: 30px;
-    background: url("../images/email.png") no-repeat;
-    background-repeat: no-repeat;	
-}*/
-	
 li {
 	display: inline;
 	padding: 0.5em;}
-
 	
-li a:hover {
-    background-color: #555;
-    color: white;
-   
-   
-#content {
-	overflow: auto;}
-
-	
-.columns p {
-	text-align: justify;
+.columns{
+	float:left;
     text-justify: inter-word;
-	width: 31.3%;
+	width: 98%;
+	padding: 0%;
+	margin: 2%;}
+	
+.column1{
 	float: left;
-	margin: 1%;}
-	
-.columns h4 {
-	text-align: center;}
+	width: 28%;
+	padding: 1%;
+	margin: 1%;
+	text-align: justify;
+	background-color: #ffff66;
+	border-style: solid;
+	border-width: 5px;}
 
-.address > * {
-    vertical-align :middle;}
+.column2{
+	float: left;
+	width: 28%;
+	padding: 1%;
+	margin: 1%;
+	text-align: justify;
+	background-color: #ffff66;
+	border-style: solid;
+	border-width: 5px;}
 	
-.address.img {
-	width = 30px;
-	height = 30px;}
+.column3{
+	float: left;
+	width: 28%;
+	padding: 1%;
+	margin: 1%;
+	text-align: justify;
+	background-color: #ffff66;
+	border-style: solid;
+	border-width: 5px;}
+	
+.columns h3 {
+	color: #E5A508;
+	text-align: center;}
+	
+footer {
+   position: absolute;
+   bottom: 0;
+   width: 96%;
+   height: 40px;
+   padding: 2%;
+   margin: 0%;
+   font-size: 15px;
+   font-weight: bold;
+   color: white;
+   background: black;}
+   
+footer .footerBlock {
+	display: inline;
+	vertical-align: middle;}
+
+footer .footerBlock .footerRightBlock {
+	float: right;}
+
+footer .footerBlock .footerLeftBlock {
+	float: left;}
+
+footer .footerBlock a #footerImg {
+	height: 50px;
+	width: 50px;
+	margin-left: 1%;
+	vertical-align: middle;}
+	
