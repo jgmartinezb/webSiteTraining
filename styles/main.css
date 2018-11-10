@@ -1,24 +1,73 @@
 @font-face {
 	font-family: 'Amiko';
 	src: url("../fonts/amiko/Amiko-Regular.ttf") format('truetype');}
-	
-header {
-	display: inline-block;
-	vertical-align: middle;}
-	
-body {
-	font-size: 18px;
-	font-weight: normal;
-	min-height: 100%;
-	margin: 0px;
-	padding: 0px;
-	color: #665544;
-	background-color: white;}
 
-li {
-	display: inline;
-	padding: 0.5em;}
-	
+body {
+	width:100%;
+	font-size: 110%;
+	font-weight: normal;
+	font-variant: normal;
+	margin: 0%;
+	padding: 0%;
+	/*color: #3a3838;*/
+	background: #293f50;}
+
+.main-header {
+	display: inline-block;
+	width: 100%;
+	height: 20%;
+	background: #ffffff;
+}
+
+.main-navigation {
+	width: 80%;
+	float: left;
+	vertical-align: middle;}
+
+.logo {
+    width: 10%;
+    margin-top: 1%;
+    margin-left: 3%;
+    float: left;
+	vertical-align: middle;}
+
+.bar-navigation {
+	width: 100%;
+	height: 100%;
+	display: inline-block;  
+	vertical-align: middle;}
+
+.bar-navigation-right {
+    text-align: left;}
+
+.bar-navigation > li{  
+	display: inline-block;  
+	vertical-align: middle;
+	margin-top: 2%;
+	margin-left: 5%;
+	margin-right: 10%;}
+
+.bar-navigation > li > a{   
+	display: inline-block;
+	width: 100%;
+	color: #000000;
+	padding: 2%;
+	border-style: solid;
+	border-width: 4px;
+	border-color: #ffffff;
+	background: #ffffff;
+	font-size: 150%;
+	text-decoration: none;}
+
+.bar-navigation a:hover{
+	color: #000000;
+	padding: 2%;
+	border-style: ridge;
+	border-width: 4px;
+	border-color: #648880;
+	color: #648880;
+	background: #ffffff;}
+
 .columns{
 	float:left;
     text-justify: inter-word;
@@ -59,7 +108,7 @@ li {
 .columns h3 {
 	color: #E5A508;
 	text-align: center;}
-	
+
 footer {
    position: absolute;
    bottom: 0;
@@ -88,3 +137,4 @@ footer .footerBlock a #footerImg {
 	margin-left: 1%;
 	vertical-align: middle;}
 	
+
