@@ -4,6 +4,7 @@ pipeline {
         stage('build') {
             steps {
                 echo "Hello World!"
+                bat 'wmic computersystem get name'
             }
         }
     }
